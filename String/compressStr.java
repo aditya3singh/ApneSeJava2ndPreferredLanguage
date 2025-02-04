@@ -1,5 +1,5 @@
 // "static void main" must be defined in a public class.
-public class Main {
+public class compressStr {
     public static String compress(String str){
         String newStr = "";
         for(int i= 0; i< str.length(); i++){
