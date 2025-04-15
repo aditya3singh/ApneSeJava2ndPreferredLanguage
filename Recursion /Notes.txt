@@ -1,0 +1,10 @@
+What is Recursion?
+Recursion is a programming technique where a function calls itself to solve smaller parts of the problem.
+
+A recursive function has two main parts:
+1. Base Case- the condition to stop the recursion.
+2. Recursive Case- where the function calls itself with a smaller input.
+
+Stack Space is the memory used by your program to store function calls, local variables, return address, etc.
+Each time a function (include recursion ones) is called, it's added to a call stack.
+When the function returns, it's removed from the stack.
