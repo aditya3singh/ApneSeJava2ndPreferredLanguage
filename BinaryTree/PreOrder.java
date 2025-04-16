@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class PreOrder {
+public class Main {
   
   static class Node{
     int data;
@@ -27,7 +27,10 @@ public class PreOrder {
     }
   
     public static void preOrder(Node root){
-      if(root == null) return;
+      if(root == null) {
+        System.out.println("-1");
+        return;
+      }
       System.out.println(root.data);
       preOrder(root.left);
       preOrder(root.right);
